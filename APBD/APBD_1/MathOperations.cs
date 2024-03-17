@@ -15,13 +15,13 @@ public class MathOperations
     
     public static float count(int[] ints)
     {
-        float result = 0;
+        float toReturn = 0;
         foreach (var digit in ints)
         {
-            result += digit;
+            toReturn += digit;
         }
 
-        return result/ints.Length;
+        return toReturn/ints.Length;
     }
 
     public static int max(int[] ints)
