@@ -10,4 +10,4 @@ Console.WriteLine("Second commit");
 
 Console.WriteLine("Third commit");
 
-Console.WriteLine("TASK 1: " + Average.count(new []{1, 2, 3, 4}));
+Console.WriteLine("TASK 1: " + MathOperations.count(new []{1, 2, 3, 4}));
